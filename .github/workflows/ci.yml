@@ -20,8 +20,7 @@ jobs:
         os: [
             windows-latest,
             ubuntu-latest,
-            # MacOS impl is broken
-            # macos-latest,
+            macos-latest,
           ]
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
@@ -52,8 +51,7 @@ jobs:
             windows-latest,
             # CI does not have a display
             # ubuntu-latest,
-            # MacOS impl is broken
-            # macos-latest,
+            macos-latest,
           ]
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
@@ -83,8 +81,7 @@ jobs:
         os: [
             windows-latest,
             ubuntu-latest,
-            # MacOS impl is broken
-            # macos-latest,
+            macos-latest,
           ]
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
@@ -148,8 +145,7 @@ jobs:
         os: [
             windows-latest,
             ubuntu-latest,
-            # MacOS impl is broken
-            # macos-latest,
+            macos-latest,
           ]
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
@@ -184,8 +180,7 @@ jobs:
         os: [
             windows-latest,
             ubuntu-latest,
-            # MacOS impl is broken
-            # macos-latest,
+            macos-latest,
           ]
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
@@ -268,8 +263,7 @@ jobs:
         os: [
             windows-latest,
             ubuntu-latest,
-            # MacOS impl is broken
-            # macos-latest,
+            macos-latest,
           ]
     runs-on: ${{ matrix.os }}
     timeout-minutes: 30
