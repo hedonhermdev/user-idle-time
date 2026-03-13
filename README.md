@@ -8,7 +8,7 @@ Get the idle time of a user
 | Linux (dbus)    | ✔️*        |
 | Linux (wayland) | ❌         |
 | Windows         | ✔️         |
-| MacOS           | ❌         |
+| MacOS           | ✔️         |
 
 > [!NOTE]
 > DBus returns the time the session has been locked, not the time since the last user input event.
